@@ -87,7 +87,6 @@ namespace LeituraExcel
 
         public void lerArquivo()
         {
-
             string[] FileLines = System.IO.File.ReadAllLines(@"C:\Users\Urbgames\Documents\_KEYSTROKE\_BASE 01\Resultado.arff");
             int count = 1, lineCount = 1, collumnCount = 1;
             foreach (string line in FileLines)
